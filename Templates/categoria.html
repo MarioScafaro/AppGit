@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ol>{% for x in lista %}
+ <li>{{ x }}</li>
+{% endfor%}
+</ol>
+<h1>Istogramma dei prezzi</h1>
+    <img src="{{ graph_path }}" alt="Histogram">
+</body>
+</html>
